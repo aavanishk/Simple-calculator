@@ -33,8 +33,8 @@ def clear():
 # Function to graph the input values
 def graph_input():
     try:
-        x_values = simpledialog.askstring("Input", "Enter X values separated by commas:")
-        y_values = simpledialog.askstring("Input", "Enter Y values separated by commas:")
+        x_values = simpledialog.askstring("Your Data", "Enter X values separated by commas:")
+        y_values = simpledialog.askstring("Your Data", "Enter Y values separated by commas:")
         
         x = [float(i) for i in x_values.split(',')]
         y = [float(i) for i in y_values.split(',')]
